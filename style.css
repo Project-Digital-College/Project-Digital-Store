@@ -24,7 +24,8 @@
 }
 
  * {
-    font-family: var(--fonte-inter)
+    font-family: var(--fonte-inter);
+    margin: 0;
  }
 
 .header-superior {
@@ -85,5 +86,8 @@
 .footer {
     background-color: var(--dark-gray);
     color: var(--white-color);
+    padding: 3%;
     display: flex;
+    justify-content:center;
+    flex-direction: row;
 }
