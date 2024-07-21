@@ -81,3 +81,9 @@
     letter-spacing: 0.70px;
     text-align: center;
 }
+
+.footer {
+    background-color: var(--dark-gray);
+    color: var(--white-color);
+    display: flex;
+}
