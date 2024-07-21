@@ -16,16 +16,26 @@
     --light-gray: #8F8F8F;
     --light-gray-2: #CCCCCC;
     --light-gray-3: #F5F5F5;
+
+    /* Fontes base */
+    --fonte-inter: 'Inter', sans-serif;
     
 
 }
 
  * {
-    font-family: 'Inter', sans-serif; /* tentei adicionar a font, sei que é a inter, mas não sei se fiz certo*/
+    font-family: var(--fonte-inter)
  }
 
+.header-superior {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
 
-.logo{
+
+.logo {
  width: 33px;
  height: 33px;
  top: 38px;
@@ -33,16 +43,38 @@
  opacity: 0px;
 }
 
-.title-header{
+.title-header {
     color: var(--primary-color);
 }
 
-.bar{
+.input-busca {
+    border-radius: 8px;
+    width: 40%;
+    height: 30px;
+}
+
+.link-cadastro {
+    color: var(--dark-gray-2);
+}
+
+.botao-entrar {
+    background-color: var(--primary-color);
+    color: var(--light-gray-3);
+    font-family: var(--fonte-inter);
+    border-radius: 10px;
+    padding: 1em 2em 1em;
+    border-color: var(--primary-color);
+}
+
+.bar {
+    display: flex;
     list-style-type: none;
     justify-content: center;
-    display: flex;
-    justify-content: flex-start;
+    gap: 5%;
+    margin: 25px;
+    justify-content: left;
     text-align: center;
+    color: var(--dark-gray-2);
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
