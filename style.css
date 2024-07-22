@@ -8,7 +8,7 @@
     --success-color: #52CA76;
     --warning-color: #F6AA1C;
     --white-color: #FFFFFF;
-    
+
     /* Grayscale */
     --dark-gray: #1F1F1F;
     --dark-gray-2: #474747;
@@ -19,14 +19,14 @@
 
     /* Fontes base */
     --fonte-inter: 'Inter', sans-serif;
-    
+
 
 }
 
- * {
+* {
     font-family: var(--fonte-inter);
     margin: 0;
- }
+}
 
 .header-superior {
     display: flex;
@@ -37,11 +37,11 @@
 
 
 .logo {
- width: 33px;
- height: 33px;
- top: 38px;
- gap: 0px;
- opacity: 0px;
+    width: 33px;
+    height: 33px;
+    top: 38px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .title-header {
@@ -51,7 +51,14 @@
 .input-busca {
     border-radius: 8px;
     width: 40%;
-    height: 30px;
+    height: 60px;
+    margin-left: 40px;
+    background-color: var(--light-gray-3);
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    border-style: none;
+    padding: 0 16px;
 }
 
 .link-cadastro {
@@ -88,6 +95,6 @@
     color: var(--white-color);
     padding: 3%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-direction: row;
 }
