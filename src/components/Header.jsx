@@ -5,6 +5,7 @@ const Header = () => {
     return (
         <>
         <div>
+
             <div>
                 <section class="header-superior">
                     <img class="logo" src={logo} alt="Digital College Logo" />
@@ -25,13 +26,14 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-            
+
         </div>
         </>
     );
 }
- 
+
 export default Header;
+
 
 
 
